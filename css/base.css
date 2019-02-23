@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.wrap{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+.top{
+	height: 30px;
+	background: #f5f5f5;
+}
+.header{
+	height: 92px;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav{
+	margin: 0 auto;
+	height: 36px;
+	background: #60bff2;
+}
+.banner{
+	width: 802px;
+	margin: 0 auto;
+	height: 414px;
+	padding: 9px 0 0 198px;
+}
+.banner-slider{
+	float: left;
+	width: 544px;
+	height: 414px;
+	background: #8edff3;
+}
+.banner-help{
+	float: right;
+	width: 250px;
+	height: 146px;
+	background: #ccc;
+	margin-top: 12px;
+}
+.banner-search{
+	float: right;
+	width: 250px;
+	height: 255px;
+	background-color: #EEEEEE;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px 0 38px 0;
+}
+.content-tab{
+	float: left;
+	width: 742px;
+	height: 490px;
+	background: #EEEEEE;
+}
+.content-news,.content-close{
+	float: right;
+	width: 248px;
+	height: 236px;
+	border: 1px solid #ccc;
+}
+.content-close{
+	margin-top: 12px;
+	
+}
+.footer{
+	height: 30px;
+	background:#f5f5f5;
+	line-height: 30px;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+}
+.backTop{
+	position: fixed;
+	bottom:30px;
+	right: 30px; 
+    background:#CCCCCC url(../img/icon-go-up.png) center no-repeat;
+	display: none;
+	height: 40px;
+	width: 40px;
+    color:#fff;
+    font-size:14px ;
+    text-align: center;
+}
+.backTop:hover:after{
+	background:#CCCCCC;
+	content: '回到顶部';
+}

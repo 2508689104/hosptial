@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.call{
+
+	float: left;
+}
+.welcome{
+	float: right;
+}
+.top p{
+	display: inline-block;
+	line-height: 30px;
+	font-size: 13px;
+	color: #868686;
+}
+.top p a{
+		text-decoration: none;
+		color: #2da5e1;
+}
+.top img{
+	display: inline;
+	float: left;
+    margin-top: 6.5px;
+}
